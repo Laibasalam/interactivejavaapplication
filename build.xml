@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="run" name="Interactive Java Application" >
+       
+    <target name="run" depends="compile">
+    </target>
+
+    <target name="compile">
+    	<javac IncludeAntRuntime="false" srcdir=".//src" destdir="dist"/>
+    </target>
+
+</project>
